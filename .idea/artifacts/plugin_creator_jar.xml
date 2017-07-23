@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="plugin_creator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/plugin_creator_jar</output-path>
+    <root id="archive" name="plugin_creator.jar">
+      <element id="module-output" name="plugin_creator" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/parasites_plugins_module.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="parasites_plugins_module">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/parasites_plugins_module.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
