@@ -214,7 +214,7 @@ public class PluginController implements ParasitesPlugin, Initializable
         PluginController.token = token;
         final Gson gson = new Gson();
 
-        final String urlToGetUser = "http://localhost:3000/users/" + id + "?token=" + token;
+        final String urlToGetUser = "http://10.33.1.74:5678/users/" + id + "?token=" + token;
         try
         {
             final String response = GetAPICall.getResponse(urlToGetUser);
