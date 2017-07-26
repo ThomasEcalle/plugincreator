@@ -284,7 +284,7 @@ public class PluginController implements ParasitesPlugin, Initializable
     private List<GameFromDB> getGamesDate()
     {
 
-        final String urlToGetGames = "http://localhost:3000/games/?token=" + PluginController.token;
+        final String urlToGetGames = "http://10.33.1.74:5678/games/?token=" + PluginController.token;
 
 
         final List<GameFromDB> games = new ArrayList<>();
@@ -317,7 +317,7 @@ public class PluginController implements ParasitesPlugin, Initializable
 
     private List<Turn> getAllTurns(final int gameID)
     {
-        final String urlToGetTurns = "http://localhost:3000/turns/" + gameID + "?token=" + token;
+        final String urlToGetTurns = "http://10.33.1.74:5678/turns/" + gameID + "?token=" + token;
 
 
         final List<Turn> turns = new ArrayList<>();
@@ -351,7 +351,7 @@ public class PluginController implements ParasitesPlugin, Initializable
 
     private List<User> getAllPlayersInGame(final int gameID)
     {
-        final String urlToGetTurns = "http://localhost:3000/games/getPlayers/" + gameID + "?token=" + token;
+        final String urlToGetTurns = "http://10.33.1.74:5678/games/getPlayers/" + gameID + "?token=" + token;
 
 
         actualUsers.clear();
